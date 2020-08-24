@@ -9,7 +9,13 @@ use Illuminate\Http\Request;
 class MainController extends Controller
 {
     public function index(Request $request){
-        $rows = ApiClient::GetData($request->route);
+        $uri = null;
+        if($request->route == null){
+            $uri = "http://localhost/paginasPHP/ServiciosWeb/Corte_1/Desafio/ServiceWebApp/public/api/impresora/get";
+        }else{
+            $uri = $request->route;
+        }
+        $rows = ApiClient::Get($uri);
         return view('consumer')
         ->with(compact(
             [
