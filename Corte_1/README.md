@@ -9,7 +9,7 @@
 ### Instalar el proyecto
 1. En la carpeta del paquete de xampp en el directorio **xampp/htdocs**, cree una carpeta llamada **paginasPHP**.
 2. Clone este repositorio y ubíquelo dentro de la carpeta **paginasPHP**.
-   -  Puede usar la herramienta que guste para clonar, solo recuerde que debe quedar con el nombre de la carpeta, debe quedar como **SistemasOperativos** (Así como se llama el repositorio).
+   -  Puede usar la herramienta que guste para clonar, solo recuerde que debe quedar con el nombre de la carpeta, debe quedar como **ServiciosWeb** (Así como se llama el repositorio).
 3. Abra dos terminales, en una ubíquese en el directorio donde está **ServiceWebApp** y en la otra el **ClientWebApp**.
 4. En cada una de las terminales, ejecute la serie de comandos:
     - `composer install`
