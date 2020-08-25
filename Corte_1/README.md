@@ -21,4 +21,4 @@
 6. En la terminal del **ServiceWebApp** ejecutar los comandos:
    - `php artisan migrate`
    - `php artisan db:seed`
-7. Para probar que el **ClientWebApp** sirve, deberá poner en su navegador, [click aquí](http://localhost/paginasPHP/ServiciosWeb/Corte_1/Desafio/ClientWebApp/public/)
+7. Para probar que el **ClientWebApp** sirve, deberá hacer [click aquí](http://localhost/paginasPHP/ServiciosWeb/Corte_1/Desafio/ClientWebApp/public/)
